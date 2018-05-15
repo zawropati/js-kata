@@ -1,0 +1,27 @@
+body{background: linear-gradient(-90deg, #f9a1b7, #feae57, #88c2e7);
+    font-family: Arial, sans-serif;
+    
+    
+}
+
+#cookie-box{background-color:rebeccapurple;
+    opacity: 1;
+    position: fixed;
+    padding: 15px;
+    width: 300px;
+    font-size: 13px;
+    font-weight: normal;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    line-height: 20px;
+    border-radius: 5px;
+    bottom: -220px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    right: 0;
+    transition: ease-in 0.5s; 
+}
+
+ #close{
+     float: right;
+ }   

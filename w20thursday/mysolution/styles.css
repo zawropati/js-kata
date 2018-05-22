@@ -1,11 +1,14 @@
 :root {
-    --basecolor: 500;
-        --color-bright: hsl(var(--basecolor), 50%, 50%);
-        --color-brighter:
-        --color-mid:
-        --color-darker:
-        --color-dark:
+    --basecolor: 700;
+        --color-bright: hsl(50%, 50%, var(--basecolor));
+        --color-brighter:  hsl(50%, 50%, var(--basecolor));
+        --color-mid: hsl(50%, 50%, var(--basecolor));
+        --color-darker: hsl(50%, 50%, var(--basecolor));
+        --color-dark:  hsl(50%, 50%, var(--basecolor));
     
+}
+#colorselector li{
+    background-color: var(--color-bright);
 }
 
 body {

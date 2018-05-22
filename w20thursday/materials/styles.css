@@ -1,11 +1,11 @@
 :root {
+
     --basecolor: 500;
         --color-bright: hsl(var(--basecolor), 50%, 50%);
         --color-brighter:
         --color-mid:
         --color-darker:
         --color-dark:
-    
 }
 
 body {
